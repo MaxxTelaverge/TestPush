@@ -1,0 +1,25 @@
+db.sessions.insert({
+      lastName: 'Doe',
+      firstName: 'John',
+      appointment: new Date(2021, 04, 11),
+      consultant: 'Richard Garland',
+      specialization: 'Cardiologist',
+      age: 31,
+      ReasonNextAppt: 'Cardiothoracic Surgery',
+      userId: 1234,
+      notes: 'Mitral valve regurgitation could be a factor in the patients symptoms',
+      SessionId: 5461
+
+    })
+    db.sessions.insert({
+      lastName: 'Doe',
+      firstName: 'Jane',
+      appointment: new Date(2021, 03, 30),
+      consultant: 'Richard Garland',
+      specialization: 'Cardiologist',
+      age: 37,
+      ReasonNextAppt: 'Cardiothoracic Surgery',
+      userId: 1234,
+      notes: '80% blockage in the aorta',
+      SessionId: 5461
+    })

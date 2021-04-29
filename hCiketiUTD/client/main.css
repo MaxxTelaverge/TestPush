@@ -1,0 +1,118 @@
+body {
+  padding: 0px;
+  background-image: url('https://i.ibb.co/KmQ0Gcq/texture-Recovered.png');
+  background-color: rgb(255, 255, 255);
+  font-family: 'Gruppo';
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+
+
+}
+
+.login-main-container {
+  margin-top: 15vh;
+  margin-left: 75vh;/*172vh;*/
+  max-width: 1000px;
+  height: 100%;
+}
+
+.login-form-header {
+  color: rgb(5, 31, 48);
+  text-align: center;
+  font: 'Gruppo';
+  text-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.form {
+
+  background-color:rgb(3, 113, 187) ;
+  box-shadow: inset 0 10px 10px rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -o-box-shadow: inset 0 20px 20px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -webkit-box-shadow: inset 0 20px 20px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -moz-box-shadow: inset 0 20px 20px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  max-width: 350px;
+  max-height: 700px;
+  margin: 0 auto 100px;
+  margin-left: 10%;
+  padding: 5vh;
+  text-align: left;
+}
+
+.form input {
+  outline: 0;
+  background: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border: 1px solid gray;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.form button {
+  outline: 0;
+  /*background: rgb(62, 178, 216);*/
+  background-image: linear-gradient(to bottom right,rgb(102, 193, 223), rgba(4, 35, 56, 0.5));
+  background-color: rgb(102, 193, 223);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-image: linear-gradient(to bottom right,rgb(3, 90, 119), rgba(4, 35, 56, 0.5));
+  background-color: rgb(5, 31, 48);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-form-forgot a, .login-form-verify a {
+  margin-top: 15px;
+  text-decoration:solid;
+  color: rgb(224, 235, 240);
+}
+
+.login-form-forgot a:hover, .login-form-verify a:hover {
+  color: rgb(5, 31, 48);
+}
+
+
+#navbar a {
+  font-size: 20px !important;
+  background-color: rgb(5, 31, 48);
+}
+
+.text-center {
+  text-align: right;
+  color: #FFFFFF;
+  text-shadow: 0 1px 1px rgb(141, 207, 230);
+  background-color:rgb(3, 113, 187) ;
+  border: none;
+  padding: 5px 30px;
+  box-shadow: inset 0 5px 10px rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -o-box-shadow: inset 0 5px 10px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -webkit-box-shadow: inset 0 5px 10px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -moz-box-shadow: inset 0 5px 10px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+
+}
+
+.text-createsession {
+  text-align: right;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 0 1px 1px rgb(141, 207, 230);
+  background-color:rgb(3, 113, 187) ;
+  border: none;
+  padding: 5px 30px;
+  box-shadow: inset 0 5px 10px rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -o-box-shadow: inset 0 5px 10px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -webkit-box-shadow: inset 0 5px 10px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+  -moz-box-shadow: inset 0 5px 10px  rgb(2, 53, 87), 0 1px 1px rgb(4, 79, 129);
+}
