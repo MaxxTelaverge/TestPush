@@ -346,14 +346,14 @@ export const ScheduledSessions = () => {
                 title: "First Name",
                 field: "firstName",
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               },
               {
                 title: "Last Name",
                 field: "lastName",
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               },
               {
@@ -361,35 +361,35 @@ export const ScheduledSessions = () => {
                 field: "age",
                 
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               },
               {
                 title: "Consulting Physician",
                 field: "consultant",
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               },
               {
                 title: "Session Duration",
                 field: "duration",
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               },
               {
                 title: "Appointment Details",
                 field: "appointment",
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               },
               {
                 title: "Reason",
                 field: "ReasonNextAppt",
                 headerStyle: {
-                  backgroundColor: "gray"
+                  backgroundColor: "#304269"
                 }
               }
               
@@ -424,7 +424,7 @@ export const ScheduledSessions = () => {
             }}
             options={{
               headerStyle: {
-                backgroundColor: "gray" ,
+                backgroundColor: "#304269" ,
                 color: "#FFF"
               }
             }}    

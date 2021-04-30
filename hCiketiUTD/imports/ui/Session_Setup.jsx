@@ -219,14 +219,14 @@ export const PatientList = () => {
                   title: "First Name",
                   field: "firstName",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 },
                 {
                   title: "Last Name",
                   field: "lastName",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 },
                 {
@@ -234,21 +234,21 @@ export const PatientList = () => {
                   field: "age",
                   type: "numeric",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 },
                 {
                   title: "Last Appointment",
                   field: "lastAppointment",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 },
                 {
                   title: "Reason",
                   field: "ReasonLastAppt",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 },
                 {
@@ -256,14 +256,14 @@ export const PatientList = () => {
                   field: "nextAppointment",
                   defaultSort: "asc",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 },
                 {
                   title: "Reason",
                   field: "ReasonNextAppt",
                   headerStyle: {
-                    backgroundColor: "gray"
+                    backgroundColor: "#304269"
                   }
                 }
 
@@ -297,7 +297,7 @@ export const PatientList = () => {
               }}
               options={{
                 headerStyle: {
-                  backgroundColor: "gray" /*"#01579b"*/,
+                  backgroundColor: "#304269" ,
                   color: "#FFF"
                 }
               }}
@@ -325,11 +325,7 @@ export const PatientList = () => {
           </Router>
         </div>
       </div>
-      <div >
-        <Typography color="textSecondary" align="center">
-          No users for this project yet
-            </Typography>
-      </div>
+
     </Paper>
   );
 };

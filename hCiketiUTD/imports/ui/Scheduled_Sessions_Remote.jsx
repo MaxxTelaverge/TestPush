@@ -75,6 +75,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const RemoteScheduledSessions = () => {
   const user = useTracker(() => Meteor.user());
+  const paperStyle = {padding: 20, height: '60vh', width: 600, margin: "0 auto" }
 
   const listofusers = Meteor.users.find({}).fetch();
   const appointments = PatientsCollection.find({}).fetch(); //Find list of appointments
@@ -233,8 +234,8 @@ export const RemoteScheduledSessions = () => {
   }
         
         return(
-	 <Paper>          
-              
+	 <Paper style={paperStyle}>
+
     <Dialog disableBackdropClick disableEscapeKeyDown open={open} onClose={handleClose}>
         <DialogTitle>Lobby Settings</DialogTitle>
         <DialogContent>

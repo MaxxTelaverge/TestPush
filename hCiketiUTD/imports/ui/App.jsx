@@ -205,7 +205,7 @@ PatientsCollection.insert({lastName: 'Blane',
       </div> :
       <div>
         <Router>
-         <Navbar/>
+            <Navbar/>
          <Switch>
           <Route path='/' exact component={Home}><PatientList /></Route>
           <Route path='/sessionsetup' component={PatientList}><PatientList /></Route>

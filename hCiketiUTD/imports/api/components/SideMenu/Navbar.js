@@ -24,7 +24,7 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <li>
-          <Controls.Button onClick={logout} text='Log Out'/>
+            <Controls.Button color='red' onClick={logout} text='Log Out'/>
           </li>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

@@ -105,10 +105,12 @@ const Login = ({ handleChange }, { handleChange2 }) => {
                 }}
             >
                 <Fade in={openLoginErrorModel}>
+                    <div >
                     <div className={classes.paper}>
                         <h2>Incorrect login credentials</h2>
+                        <h2>Please try again.</h2>
                         <Button onClick={handleCloseLoginErrorModal} size="large" variant="contained">Close</Button>
-                    </div>
+                    </div></div>
                 </Fade>
             </Modal>
         </Grid>

@@ -9,6 +9,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 const Signup = () => {
     const paperStyle = { padding: 20,height:'60vh', width: 600, margin: "0 auto" }
+    const btnstyle = { margin: '8px 0', color:'white', backgroundColor: '#304269' }
     const headerStyle = { margin: 0 }
     const avatarStyle = { backgroundColor: '#1bbd7e' }
     const marginTop = { marginTop: 5 }
@@ -36,7 +37,7 @@ const Signup = () => {
                         control={<Checkbox name="checkedA" />}
                         label="I accept the terms and conditions."
                     />
-                    <Button type='submit' variant='contained' color='primary'>Sign up</Button>
+                    <Button style={btnstyle}> Sign up </Button>
                 </form>
             </Paper>
         </Grid>
